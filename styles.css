@@ -107,13 +107,12 @@ body {
 
 .change-color {
 	color: red;
-	transform: scale(1.1);
-	transition-duration: 0.3s;
+	transition-duration: 0.1s;
 }
 
 .change-color-2 {
 	color: var(--dark-color);
-	transition-duration: 0.3s;
+	transition-duration: 0.1s;
 }
 footer {
 	text-align: center;
