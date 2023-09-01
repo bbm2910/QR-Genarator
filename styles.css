@@ -16,7 +16,8 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 .wrapper {
-	width: 30%;
+	width: 90%; /* Adjust the width for smaller screens */
+	max-width: 400px;
 	padding: 2%;
 	position: absolute;
 	top: 50%;
