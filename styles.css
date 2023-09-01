@@ -115,3 +115,17 @@ body {
 	color: var(--dark-color);
 	transition-duration: 0.3s;
 }
+footer {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	font-size: 0.8rem;
+	font-weight: 300;
+	padding: 0.2%;
+	background-color: var(--light-color);
+	color: var(--dark-color);
+	position: fixed;
+	bottom: 0;
+}
