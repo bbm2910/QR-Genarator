@@ -62,7 +62,8 @@ body {
 	width: 50%;
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 4s;
+	opacity: 0; /* Set initial opacity to 0 */
+	transition: opacity 3s, transform 0.5s;
 }
 .qr-img {
 	width: 100%;
@@ -72,9 +73,9 @@ body {
 	max-height: 50%;
 	margin: 5% auto;
 	border-radius: 0.4rem;
-	background: #fff;
 	background: linear-gradient(145deg, #e6e6e6, #ffffff);
 	box-shadow: 9px 9px 18px #cfcfcf, -9px -9px 18px #ffffff;
+	opacity: 1;
 }
 .qr-box-p {
 	/* background: var(--dark-color); */
