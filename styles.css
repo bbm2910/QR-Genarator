@@ -107,7 +107,7 @@ body {
 
 .change-color {
 	color: red;
-	letter-spacing: 1px;
+	transform: scale(1.1);
 	transition-duration: 0.3s;
 }
 
