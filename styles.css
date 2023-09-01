@@ -27,7 +27,7 @@ body {
 	box-shadow: 0px 7px 50px 0px #000;
 	border: 1px solid #000;
 }
-.wrapper p {
+.title {
 	margin-bottom: 3%;
 	font-weight: 400;
 	font-size: 1.3rem;
@@ -65,14 +65,21 @@ body {
 }
 .qr-img {
 	width: 100%;
-	padding: 5%;
+	padding: 10%;
 }
 .qr-box.show-img {
 	max-height: 50%;
 	margin: 5% auto;
-	padding: 3%;
-	border: 1px solid var(--dark-color);
+	border: 5px solid var(--dark-color);
 	border-radius: 0.3rem;
+}
+.qr-box-p {
+	/* background: var(--dark-color); */
+	color: var(--dark-color);
+	margin: 0;
+	padding: 5%;
+	font-weight: 300;
+	text-align: center;
 }
 .error {
 	animation: shake 0.1s linear 5;
@@ -95,4 +102,15 @@ body {
 	100% {
 		transform: translateX(0);
 	}
+}
+
+.change-color {
+	color: red;
+	letter-spacing: 1px;
+	transition-duration: 0.3s;
+}
+
+.change-color-2 {
+	color: var(--dark-color);
+	transition-duration: 0.3s;
 }
