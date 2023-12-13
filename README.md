@@ -1,6 +1,6 @@
 # QR-Genarator
 This is a simple QR code generator web application built with HTML, CSS, and JavaScript. It allows users to generate QR codes from text input and provides a visual representation of the QR code.
-
+[Live preview](https://bbm2910.github.io/QR-Genarator/)
 ## Features
 Generate QR codes from text input.
 Display the generated QR code.
