@@ -1,133 +1,134 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 :root {
-	--dark-color: #252a34;
-	--light-color: #eaeaea;
-	--btn-color: #08d9d6;
-	--btn-color-hover: #014241d4;
-	--error-color: #ff2e63;
+  --dark-color: #252a34;
+  --light-color: #eaeaea;
+  --btn-color: #08d9d6;
+  --btn-color-hover: #014241d4;
+  --error-color: #ff2e63;
 }
 body {
-	background: var(--dark-color);
-	color: var(--dark-color);
-	font-family: 'Poppins', sans-serif;
+  background: var(--dark-color);
+  color: var(--dark-color);
+  font-family: "Poppins", sans-serif;
 }
 .wrapper {
-	width: 90%; /* Adjust the width for smaller screens */
-	max-width: 400px;
-	padding: 2%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: var(--light-color);
-	border-radius: 0.5rem;
-	box-shadow: 0px 7px 50px 0px #000;
-	border: 1px solid #000;
+  width: 90%; /* Adjust the width for smaller screens */
+  max-width: 400px;
+  padding: 2%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--light-color);
+  border-radius: 0.5rem;
+  box-shadow: 0px 7px 50px 0px #000;
+  border: 1px solid #000;
 }
 .title {
-	margin-bottom: 3%;
-	font-weight: 400;
-	font-size: 1.3rem;
-	text-align: center;
+  margin-bottom: 3%;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
 }
 .wrapper input {
-	width: 100%;
-	border: 1px solid var(--dark-color);
-	outline: 0;
-	padding: 2% 3%;
-	border-radius: 0.3rem;
-	margin-bottom: 5%;
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  outline: 0;
+  padding: 2% 3%;
+  border-radius: 0.3rem;
+  margin-bottom: 5%;
 }
 .btn {
-	background: var(--btn-color);
-	width: 100%;
-	border: none;
-	outline: 0;
-	padding: 2% 3%;
-	border-radius: 0.3rem;
-	transition-duration: 0.3s;
-	font-weight: 100;
-	font-size: 1.1rem;
-	cursor: pointer;
+  background: var(--btn-color);
+  width: 100%;
+  border: none;
+  outline: 0;
+  padding: 2% 3%;
+  border-radius: 0.3rem;
+  transition-duration: 0.1s;
+  font-weight: 300;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
 .btn:hover {
-	background: var(--btn-color-hover);
-	color: var(--light-color);
+  background: var(--btn-color-hover);
+  color: var(--light-color);
+  font-weight: 500;
 }
 .qr-box {
-	width: 50%;
-	max-height: 0;
-	overflow: hidden;
-	opacity: 0; /* Set initial opacity to 0 */
-	transition: opacity 3s, transform 0.5s;
+  width: 50%;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 3s, transform 0.5s;
 }
 .qr-img {
-	width: 100%;
-	padding: 10%;
+  width: 100%;
+  padding: 10%;
 }
 .qr-box.show-img {
-	max-height: 50%;
-	margin: 5% auto;
-	border-radius: 0.4rem;
-	background: linear-gradient(145deg, #e6e6e6, #ffffff);
-	box-shadow: 9px 9px 18px #cfcfcf, -9px -9px 18px #ffffff;
-	opacity: 1;
+  max-height: 50%;
+  margin: 5% auto;
+  border-radius: 0.4rem;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 9px 9px 18px #cfcfcf, -9px -9px 18px #ffffff;
+  opacity: 1;
 }
 .qr-box-p {
-	/* background: var(--dark-color); */
-	color: var(--dark-color);
-	margin: 0;
-	padding: 5%;
-	font-weight: 300;
-	text-align: center;
+  /* background: var(--dark-color); */
+  color: var(--dark-color);
+  margin: 0;
+  padding: 5%;
+  font-weight: 300;
+  text-align: center;
 }
 .error {
-	animation: shake 0.1s linear 5;
-	background: #d71313;
-	opacity: 30%;
+  animation: shake 0.1s linear 5;
+  background: #d71313;
+  opacity: 30%;
 }
 @keyframes shake {
-	0% {
-		transform: translateX(0);
-	}
-	25% {
-		transform: translateX(-2px);
-	}
-	50% {
-		transform: translateX(0);
-	}
-	75% {
-		transform: translateX(2px);
-	}
-	100% {
-		transform: translateX(0);
-	}
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .change-color {
-	color: red;
-	transition-duration: 0.1s;
+  color: red;
+  transition-duration: 0.1s;
 }
 
 .change-color-2 {
-	color: var(--dark-color);
-	transition-duration: 0.1s;
+  color: var(--dark-color);
+  transition-duration: 0.1s;
 }
 footer {
-	text-align: center;
+  text-align: center;
 }
 footer {
-	width: 100%;
-	text-align: center;
-	font-size: 0.8rem;
-	font-weight: 300;
-	padding: 0.2%;
-	background-color: var(--light-color);
-	color: var(--dark-color);
-	position: fixed;
-	bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 0.2%;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  position: fixed;
+  bottom: 0;
 }
